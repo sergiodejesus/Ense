@@ -1,0 +1,205 @@
+* {
+	font-family:Arial;
+}
+body {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+.topo {
+
+	height: 50px;	
+	background-color: #353535;
+}
+
+.topointerior {
+
+	width:1000px;
+	margin:auto;
+	color: white;
+
+}
+
+@media only screen and (max-width:800px) {
+
+	.topointerior {
+		width: 300px;
+	}
+
+	.bannerinterior {
+		width: 300px;
+	}
+
+	.conteudointerno {
+		width: 300px;
+	}
+}
+
+.logomarca {
+
+	float: left;
+	font-size:24px;
+	line-height: 50px;
+
+}
+
+.menu {
+
+	float: right;
+
+}
+
+.menu ul,
+.menu li {
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+.menu li{
+
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 50px;
+	font-size:14px;
+	cursor: pointer;
+
+}
+
+.menu li:hover {
+
+	background-color: #3480c1;
+	transition: all 0.5s;
+    transform: scale(1.15);
+
+}	
+
+.banner {
+
+	height: 300px;
+	background-color: #347aba;
+}
+
+.bannerinterior {
+
+	width: 1000px;
+	margin: auto;
+}
+
+.banneresquerda {
+
+	float: left;
+
+}
+
+.bannerdireita {
+
+	float: right;
+
+}
+
+.bannerdireita img { 
+
+	margin-right: 100px;
+	margin-top: 70px;
+	box-shadow: 2px 30px 30px #88888888;
+	border-radius: 100px;
+}
+
+/*#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:266px;
+  height:32px;
+  margin-left: 1px;
+  margin-top: 100px;*/
+}
+ 
+#txtPesquisar{
+  float:left;
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+ 
+#btnIr{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#5F9EA0;
+  color: white;
+
+}
+
+.frase1 {
+
+	font-size:48px;
+	color: white;
+	margin-top:60px;
+}
+
+.frase2 {
+
+	font-size: 20px;
+	color: white;
+
+}
+
+.botao {
+
+	background-color: #ffc001;
+	width: 282px;
+	height: 56px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 56px;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.conteudo {
+
+	text-align: center;
+}
+
+.conteudointerno {
+
+	width: 1000px;
+	margin: auto;
+}
+
+.outrosprodutos {
+
+	height: 90px;
+	font-size: 20px;
+	line-height: 90px;
+}
+
+.fotos img{
+
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.rodape {
+
+	background-color: #347aba;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #ffffff;
+	margin-top: 40px;
+}
